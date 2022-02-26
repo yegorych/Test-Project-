@@ -22,8 +22,8 @@ def browser(request):
 
     # В опции вебдрайвера передаем параметр из командной строки
     options.add_experimental_option('prefs', {'intl.accept_languages': user_language})
-    browser = webdriver.Chrome(options=options)
-    #browser = webdriver.Remote(command_executor="http://selenium__standalone-chrome:4444/wd/hub")
+    #browser = webdriver.Chrome(options=options)
+    browser = webdriver.Remote(command_executor="http://selenium__standalone-chrome:4444/wd/hub")
     browser.implicitly_wait(5)
     yield browser
     browser.quit()
