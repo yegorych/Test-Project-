@@ -1,0 +1,89 @@
+{
+  "uid" : "c92c19cb4d71c570",
+  "name" : "test_guest_can_go_to_login_page",
+  "fullName" : "test_main_page.TestLoginFromMainPage#test_guest_can_go_to_login_page",
+  "historyId" : "678e27d6baefbd97a051c8593caf1f4d",
+  "time" : {
+    "start" : 1645881766129,
+    "stop" : 1645881766130,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "self = <test_main_page.TestLoginFromMainPage object at 0x000002A9E5B97FA0>\nbrowser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"af8ce87deed204a1d6461c766bdd035f\")>\n\n    @allure.feature('провальный тест')\n    def test_guest_can_go_to_login_page(self, browser):\n>       assert False\nE       assert False\n\ntest_main_page.py:12: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1645881764504,
+      "stop" : 1645881766126,
+      "duration" : 1622
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1645881766390,
+      "stop" : 1645881768539,
+      "duration" : 2149
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "провальный тест"
+  }, {
+    "name" : "tag",
+    "value" : "login_guest"
+  }, {
+    "name" : "suite",
+    "value" : "test_main_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLoginFromMainPage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1AJB3GS"
+  }, {
+    "name" : "thread",
+    "value" : "13896-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "login_guest" ]
+  },
+  "source" : "c92c19cb4d71c570.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,81 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "провальный тест",
+    "children" : [ {
+      "name" : "test_guest_can_go_to_login_page",
+      "uid" : "2870f3d6eed5927c",
+      "parentUid" : "d38735399d86e098c71a8b571ce1fbdf",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645881813586,
+        "stop" : 1645881813586,
+        "duration" : 0
+      },
+      "flaky" : true,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d38735399d86e098c71a8b571ce1fbdf"
+  }, {
+    "name" : "успешный тест",
+    "children" : [ {
+      "name" : "test_guest_should_see_login_link",
+      "uid" : "67ffbb8629cbbacb",
+      "parentUid" : "515112ef1ad02d8849bd8911e2aded23",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645881816743,
+        "stop" : 1645881816743,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "515112ef1ad02d8849bd8911e2aded23"
+  }, {
+    "name" : "тестовый гость и корзина",
+    "children" : [ {
+      "name" : "продукты из корзины отрытой с главной страницы не видны гостю",
+      "children" : [ {
+        "name" : "test_guest_cant_see_product_in_basket_opened_from_main_page",
+        "uid" : "2b32d5069931f4b9",
+        "parentUid" : "181b62102b6c563213fe443bf7b4fc06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645881819800,
+          "stop" : 1645881832253,
+          "duration" : 12453
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "181b62102b6c563213fe443bf7b4fc06"
+    } ],
+    "uid" : "5dbf230d94b1daea7ab6f3355913b250"
+  }, {
+    "name" : "test guest cant see product",
+    "children" : [ {
+      "name" : "продукты из корзины отрытой со страницы товара не видны гостю",
+      "children" : [ {
+        "name" : "test_guest_cant_see_product_in_basket_opened_from_product_page",
+        "uid" : "296c4a5143bfb17e",
+        "parentUid" : "a0ab78a2f86a8c83542117f7fb9f2ef2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645881835326,
+          "stop" : 1645881856623,
+          "duration" : 21297
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a0ab78a2f86a8c83542117f7fb9f2ef2"
+    } ],
+    "uid" : "f236bd23bc37ae3a47f92194e7d8c545"
+  } ],
+  "name" : "behaviors"
+}
