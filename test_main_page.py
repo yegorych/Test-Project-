@@ -13,7 +13,7 @@ class TestLoginFromMainPage():
 
     @allure.feature('успешный тест')
     def test_guest_should_see_login_link(self, browser):
-        assert False
+        assert True
 
 
 @allure.feature('тестовый гость и корзина')
