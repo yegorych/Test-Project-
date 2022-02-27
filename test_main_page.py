@@ -6,11 +6,13 @@ from pages.basket_page import BasketPage
 class TestLoginFromMainPage():
     @allure.feature('провальный тест')
     def test_guest_can_go_to_login_page(self, browser):
-        link = "http://selenium1py.pythonanywhere.com/"
-        page = BasketPage(browser, link)
-        page.open()
-        page.basket_should_be_empty()
-        page.should_be_empty_basket_message()
+        with allure.step('переход на главную страницу сайта'):
+            link = "http://selenium1py.pythonanywhere.com/"
+            page = BasketPage(browser, link)
+            page.open()
+        with allure.step('проверка что корзина пустая'):
+            page.basket_should_be_empty()
+
 
     @allure.feature('успешный тест')
     def test_guest_should_see_login_link(self, browser):
