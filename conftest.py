@@ -1,7 +1,17 @@
+import allure
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.abstract_event_listener import AbstractEventListener
+from selenium.webdriver.support.events import EventFiringWebDriver
+from allure_commons.types import AttachmentType
 
+class ScreenshotListener(AbstractEventListener):
+    def on_exception(self, exception, driver):
+        #screenshot_name = "exception.png"
+        #driver.get_screenshot_as_file(screenshot_name)
+        #print("Screenshot saved as '%s'" % screenshot_name)/
+        allure.attach(driver.get_screenshot_as_png(), name='screenError', attachment_type=AttachmentType.PNG)
 
 def pytest_addoption(parser):
     """Опции командной строки.
@@ -22,7 +32,8 @@ def browser(request):
 
     # В опции вебдрайвера передаем параметр из командной строки
     options.add_experimental_option('prefs', {'intl.accept_languages': user_language})
-    browser = webdriver.Chrome(options=options)
+    prebrowser = webdriver.Chrome(options=options)
+    browser = EventFiringWebDriver(prebrowser, ScreenshotListener())
     #browser = webdriver.Remote(command_executor="http://selenium__standalone-chrome:4444/wd/hub")
     browser.implicitly_wait(5)
     yield browser
