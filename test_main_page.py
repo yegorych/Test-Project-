@@ -13,7 +13,7 @@ class TestLoginFromMainPage():
         with allure.step('открытие корзины'):
             page.go_to_basket_page()
         with allure.step('проверка что корзина пуста и есть соответствующее сообщение'):
-            page.basket_should_be_empty()
+            page.should_be_empty_basket_message()
 
 
 
