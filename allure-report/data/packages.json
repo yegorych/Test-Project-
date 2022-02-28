@@ -1,15 +1,16 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
   "children" : [ {
     "name" : "test_main_page",
     "children" : [ {
       "name" : "test_guest_can_go_to_login_page",
-      "uid" : "2870f3d6eed5927c",
+      "uid" : "661f8a2d483f6aa8",
       "parentUid" : "59ec1d07229435c7baa71e814f5211e9",
       "status" : "failed",
       "time" : {
-        "start" : 1645881813586,
-        "stop" : 1645881813586,
+        "start" : 1646041113479,
+        "stop" : 1646041113479,
         "duration" : 0
       },
       "flaky" : true,
@@ -17,12 +18,12 @@
       "parameters" : [ ]
     }, {
       "name" : "test_guest_should_see_login_link",
-      "uid" : "67ffbb8629cbbacb",
+      "uid" : "1ebd424773ff1d84",
       "parentUid" : "59ec1d07229435c7baa71e814f5211e9",
-      "status" : "failed",
+      "status" : "passed",
       "time" : {
-        "start" : 1645881816743,
-        "stop" : 1645881816743,
+        "start" : 1646041116713,
+        "stop" : 1646041116713,
         "duration" : 0
       },
       "flaky" : false,
@@ -30,32 +31,31 @@
       "parameters" : [ ]
     }, {
       "name" : "test_guest_cant_see_product_in_basket_opened_from_main_page",
-      "uid" : "2b32d5069931f4b9",
+      "uid" : "dbb351c828f86457",
       "parentUid" : "59ec1d07229435c7baa71e814f5211e9",
       "status" : "passed",
       "time" : {
-        "start" : 1645881819800,
-        "stop" : 1645881832253,
-        "duration" : 12453
+        "start" : 1646041120152,
+        "stop" : 1646041132478,
+        "duration" : 12326
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "test_guest_cant_see_product_in_basket_opened_from_product_page",
-      "uid" : "296c4a5143bfb17e",
+      "uid" : "62019767fbab3693",
       "parentUid" : "59ec1d07229435c7baa71e814f5211e9",
       "status" : "passed",
       "time" : {
-        "start" : 1645881835326,
-        "stop" : 1645881856623,
-        "duration" : 21297
+        "start" : 1646041135549,
+        "stop" : 1646041148072,
+        "duration" : 12523
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
     "uid" : "59ec1d07229435c7baa71e814f5211e9"
-  } ],
-  "name" : "packages"
+  } ]
 }

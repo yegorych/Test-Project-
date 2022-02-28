@@ -4,11 +4,29 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 6
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "dbb351c828f86457",
+      "reportUrl" : "http://localhost:8080/job/jenkinsLocal/13/allure/#testresult/dbb351c828f86457",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646041120152,
+        "stop" : 1646041132478,
+        "duration" : 12326
+      }
+    }, {
+      "uid" : "20035e9d06a96a32",
+      "reportUrl" : "http://localhost:8080/job/jenkinsLocal/12/allure/#testresult/20035e9d06a96a32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646040959496,
+        "stop" : 1646040971992,
+        "duration" : 12496
+      }
+    }, {
       "uid" : "2b32d5069931f4b9",
       "reportUrl" : "http://localhost:8080/job/jen/11/allure/#testresult/2b32d5069931f4b9",
       "status" : "passed",
@@ -69,11 +87,29 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 6
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "62019767fbab3693",
+      "reportUrl" : "http://localhost:8080/job/jenkinsLocal/13/allure/#testresult/62019767fbab3693",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646041135549,
+        "stop" : 1646041148072,
+        "duration" : 12523
+      }
+    }, {
+      "uid" : "7954772210718b27",
+      "reportUrl" : "http://localhost:8080/job/jenkinsLocal/12/allure/#testresult/7954772210718b27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646040975198,
+        "stop" : 1646040988005,
+        "duration" : 12807
+      }
+    }, {
       "uid" : "296c4a5143bfb17e",
       "reportUrl" : "http://localhost:8080/job/jen/11/allure/#testresult/296c4a5143bfb17e",
       "status" : "passed",
@@ -131,14 +167,34 @@
   },
   "678e27d6baefbd97a051c8593caf1f4d" : {
     "statistic" : {
-      "failed" : 5,
-      "broken" : 0,
+      "failed" : 6,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 6
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "661f8a2d483f6aa8",
+      "reportUrl" : "http://localhost:8080/job/jenkinsLocal/13/allure/#testresult/661f8a2d483f6aa8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1646041113479,
+        "stop" : 1646041113479,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ceaeca7a15b4b831",
+      "reportUrl" : "http://localhost:8080/job/jenkinsLocal/12/allure/#testresult/ceaeca7a15b4b831",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='content_inner']/p\"}\n  (Session info: chrome=98.0.4758.102)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0126FDC3+2555331]\n\tOrdinal0 [0x012077F1+2127857]\n\tOrdinal0 [0x01102E08+1060360]\n\tOrdinal0 [0x0112E49E+1238174]\n\tOrdinal0 [0x0112E69B+1238683]\n\tOrdinal0 [0x01159252+1413714]\n\tOrdinal0 [0x01147B54+1342292]\n\tOrdinal0 [0x011575FA+1406458]\n\tOrdinal0 [0x01147976+1341814]\n\tOrdinal0 [0x011236B6+1193654]\n\tOrdinal0 [0x01124546+1197382]\n\tGetHandleVerifier [0x01409622+1619522]\n\tGetHandleVerifier [0x014B882C+2336844]\n\tGetHandleVerifier [0x013023E1+541697]\n\tGetHandleVerifier [0x01301443+537699]\n\tOrdinal0 [0x0120D18E+2150798]\n\tOrdinal0 [0x01211518+2168088]\n\tOrdinal0 [0x01211660+2168416]\n\tOrdinal0 [0x0121B330+2208560]\n\tBaseThreadInitThunk [0x7722FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77C47A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77C47A6E+238]",
+      "time" : {
+        "start" : 1646040941403,
+        "stop" : 1646040952855,
+        "duration" : 11452
+      }
+    }, {
       "uid" : "2870f3d6eed5927c",
       "reportUrl" : "http://localhost:8080/job/jen/11/allure/#testresult/2870f3d6eed5927c",
       "status" : "failed",
@@ -204,11 +260,29 @@
       "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 6
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "1ebd424773ff1d84",
+      "reportUrl" : "http://localhost:8080/job/jenkinsLocal/13/allure/#testresult/1ebd424773ff1d84",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646041116713,
+        "stop" : 1646041116713,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "119016834d4cca60",
+      "reportUrl" : "http://localhost:8080/job/jenkinsLocal/12/allure/#testresult/119016834d4cca60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646040956329,
+        "stop" : 1646040956329,
+        "duration" : 0
+      }
+    }, {
       "uid" : "67ffbb8629cbbacb",
       "reportUrl" : "http://localhost:8080/job/jen/11/allure/#testresult/67ffbb8629cbbacb",
       "status" : "failed",

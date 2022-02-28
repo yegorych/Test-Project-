@@ -15,10 +15,10 @@
     "uid" : "515112ef1ad02d8849bd8911e2aded23",
     "name" : "успешный тест",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     }

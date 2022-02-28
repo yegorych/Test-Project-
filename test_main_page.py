@@ -10,8 +10,10 @@ class TestLoginFromMainPage():
             link = "http://selenium1py.pythonanywhere.com/"
             page = BasketPage(browser, link)
             page.open()
-        with allure.step('проверка что корзина пустая'):
-            page.should_be_empty_basket_message()
+        with allure.step('открытие корзины'):
+            page.go_to_basket_page()
+        with allure.step('проверка что корзина пуста и есть соответствующее сообщение'):
+            page.basket_should_be_empty()
 
 
 
