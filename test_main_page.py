@@ -11,7 +11,7 @@ class TestLoginFromMainPage():
             page = BasketPage(browser, link)
             page.open()
         with allure.step('проверка что корзина пустая'):
-            page.basket_should_be_empty()
+            page.should_be_empty_basket_message()
 
 
 
